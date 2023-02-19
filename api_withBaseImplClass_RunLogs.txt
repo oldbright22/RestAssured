@@ -1,0 +1,376 @@
+[RemoteTestNG] detected TestNG version 7.4.0
+Request method:	POST
+Request URI:	https://dev87862.service-now.com/api/now/table/incident
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "short_description": "created_incident_for_chained_exercised.",
+    "description": "created_by_bernise_for_chained_exercised."
+}
+============== CREATED ===================  Sys_id === b5f8a13187052110b24e99383cbb3558
+============== CREATED ===================  Desc === created_by_bernise_for_chained_exercised.
+HTTP/1.1 201 Created
+Set-Cookie: JSESSIONID=D1820E1974C8335D8ECBB972B147978A; Path=/; HttpOnly;Secure
+Server-Timing: sem_wait;dur=0, sesh_wait;dur=0
+Content-Encoding: gzip
+Set-Cookie: glide_user=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure
+Set-Cookie: glide_user_session=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure
+Set-Cookie: glide_user_route=glide.ac27e18909b64e41e567989606534fa6; Max-Age=2147483647; Expires=Wed, 07-Mar-2091 02:30:15 GMT; Path=/; HttpOnly;Secure
+X-Is-Logged-In: true
+X-Transaction-ID: b9f82dfd87c1
+Set-Cookie: glide_session_store=75F82DFD87C12110B24E99383CBB35F5; Max-Age=1800; Expires=Thu, 16-Feb-2023 23:46:08 GMT; Path=/; HttpOnly;Secure
+Location: https://dev87862.service-now.com/api/now/table/incident/b5f8a13187052110b24e99383cbb3558
+X-Content-Type-Options: nosniff
+Pragma: no-store,no-cache
+Cache-Control: no-cache,no-store,must-revalidate,max-age=-1
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 16 Feb 2023 23:16:07 GMT
+Keep-Alive: timeout=70
+Connection: keep-alive
+Server: ServiceNow
+Set-Cookie: BIGipServerpool_dev87862=2358073354.32320.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
+{
+    "result": {
+        "parent": "",
+        "made_sla": "true",
+        "caused_by": "",
+        "watch_list": "",
+        "upon_reject": "cancel",
+        "sys_updated_on": "2023-02-16 23:16:08",
+        "child_incidents": "0",
+        "hold_reason": "",
+        "origin_table": "",
+        "task_effective_number": "INC0010166",
+        "approval_history": "",
+        "number": "INC0010166",
+        "resolved_by": "",
+        "sys_updated_by": "admin",
+        "opened_by": {
+            "link": "https://dev87862.service-now.com/api/now/table/sys_user/6816f79cc0a8016401c5a33be04be441",
+            "value": "6816f79cc0a8016401c5a33be04be441"
+        },
+        "user_input": "",
+        "sys_created_on": "2023-02-16 23:16:08",
+        "sys_domain": {
+            "link": "https://dev87862.service-now.com/api/now/table/sys_user_group/global",
+            "value": "global"
+        },
+        "state": "1",
+        "route_reason": "",
+        "sys_created_by": "admin",
+        "knowledge": "false",
+        "order": "",
+        "calendar_stc": "",
+        "closed_at": "",
+        "cmdb_ci": "",
+        "delivery_plan": "",
+        "contract": "",
+        "impact": "3",
+        "active": "true",
+        "work_notes_list": "",
+        "business_service": "",
+        "business_impact": "",
+        "priority": "5",
+        "sys_domain_path": "/",
+        "rfc": "",
+        "time_worked": "",
+        "expected_start": "",
+        "opened_at": "2023-02-16 23:16:08",
+        "business_duration": "",
+        "group_list": "",
+        "work_end": "",
+        "caller_id": "",
+        "reopened_time": "",
+        "resolved_at": "",
+        "approval_set": "",
+        "subcategory": "",
+        "work_notes": "",
+        "universal_request": "",
+        "short_description": "created_incident_for_chained_exercised.",
+        "close_code": "",
+        "correlation_display": "",
+        "delivery_task": "",
+        "work_start": "",
+        "assignment_group": "",
+        "additional_assignee_list": "",
+        "business_stc": "",
+        "cause": "",
+        "description": "created_by_bernise_for_chained_exercised.",
+        "origin_id": "",
+        "calendar_duration": "",
+        "close_notes": "",
+        "notify": "1",
+        "service_offering": "",
+        "sys_class_name": "incident",
+        "closed_by": "",
+        "follow_up": "",
+        "parent_incident": "",
+        "sys_id": "b5f8a13187052110b24e99383cbb3558",
+        "contact_type": "",
+        "reopened_by": "",
+        "incident_state": "1",
+        "urgency": "3",
+        "problem_id": "",
+        "company": "",
+        "reassignment_count": "0",
+        "activity_due": "",
+        "assigned_to": "",
+        "severity": "3",
+        "comments": "",
+        "approval": "not requested",
+        "sla_due": "",
+        "comments_and_work_notes": "",
+        "due_date": "",
+        "sys_mod_count": "0",
+        "reopen_count": "0",
+        "sys_tags": "",
+        "escalation": "0",
+        "upon_approval": "proceed",
+        "correlation_id": "",
+        "location": "",
+        "category": "inquiry"
+    }
+}
+Request method:	PUT
+Request URI:	https://dev87862.service-now.com/api/now/table/incident/b5f8a13187052110b24e99383cbb3558
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "short_description": "incident_updated_with_maven_java_chained.",
+    "description": "updated_by_bernise_with_maven_java_chained"
+}
+============== UPDATED =================== Sys_id === b5f8a13187052110b24e99383cbb3558
+============== UPDATED =================== Desc === updated_by_bernise_with_maven_java_chained
+HTTP/1.1 200 OK
+Set-Cookie: JSESSIONID=02B89CABDC212DB23AE7CE77D2193480; Path=/; HttpOnly;Secure
+Server-Timing: sem_wait;dur=0, sesh_wait;dur=0
+Content-Encoding: gzip
+Set-Cookie: glide_user=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure
+Set-Cookie: glide_user_session=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure
+Set-Cookie: glide_user_route=glide.ac27e18909b64e41e567989606534fa6; Max-Age=2147483647; Expires=Wed, 07-Mar-2091 02:30:17 GMT; Path=/; HttpOnly;Secure
+X-Is-Logged-In: true
+X-Transaction-ID: 12f861fd87c1
+Set-Cookie: glide_session_store=DAF861FD87C12110B24E99383CBB355C; Max-Age=1800; Expires=Thu, 16-Feb-2023 23:46:10 GMT; Path=/; HttpOnly;Secure
+X-Content-Type-Options: nosniff
+Pragma: no-store,no-cache
+Cache-Control: no-cache,no-store,must-revalidate,max-age=-1
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 16 Feb 2023 23:16:10 GMT
+Keep-Alive: timeout=70
+Connection: keep-alive
+Server: ServiceNow
+Set-Cookie: BIGipServerpool_dev87862=2358073354.32320.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
+{
+    "result": {
+        "parent": "",
+        "made_sla": "true",
+        "caused_by": "",
+        "watch_list": "",
+        "upon_reject": "cancel",
+        "sys_updated_on": "2023-02-16 23:16:10",
+        "child_incidents": "0",
+        "hold_reason": "",
+        "origin_table": "",
+        "task_effective_number": "INC0010166",
+        "approval_history": "",
+        "number": "INC0010166",
+        "resolved_by": "",
+        "sys_updated_by": "admin",
+        "opened_by": {
+            "link": "https://dev87862.service-now.com/api/now/table/sys_user/6816f79cc0a8016401c5a33be04be441",
+            "value": "6816f79cc0a8016401c5a33be04be441"
+        },
+        "user_input": "",
+        "sys_created_on": "2023-02-16 23:16:08",
+        "sys_domain": {
+            "link": "https://dev87862.service-now.com/api/now/table/sys_user_group/global",
+            "value": "global"
+        },
+        "state": "1",
+        "route_reason": "",
+        "sys_created_by": "admin",
+        "knowledge": "false",
+        "order": "",
+        "calendar_stc": "",
+        "closed_at": "",
+        "cmdb_ci": "",
+        "delivery_plan": "",
+        "contract": "",
+        "impact": "3",
+        "active": "true",
+        "work_notes_list": "",
+        "business_service": "",
+        "business_impact": "",
+        "priority": "5",
+        "sys_domain_path": "/",
+        "rfc": "",
+        "time_worked": "",
+        "expected_start": "",
+        "opened_at": "2023-02-16 23:16:08",
+        "business_duration": "",
+        "group_list": "",
+        "work_end": "",
+        "caller_id": "",
+        "reopened_time": "",
+        "resolved_at": "",
+        "approval_set": "",
+        "subcategory": "",
+        "work_notes": "",
+        "universal_request": "",
+        "short_description": "incident_updated_with_maven_java_chained.",
+        "close_code": "",
+        "correlation_display": "",
+        "delivery_task": "",
+        "work_start": "",
+        "assignment_group": "",
+        "additional_assignee_list": "",
+        "business_stc": "",
+        "cause": "",
+        "description": "updated_by_bernise_with_maven_java_chained",
+        "origin_id": "",
+        "calendar_duration": "",
+        "close_notes": "",
+        "notify": "1",
+        "service_offering": "",
+        "sys_class_name": "incident",
+        "closed_by": "",
+        "follow_up": "",
+        "parent_incident": "",
+        "sys_id": "b5f8a13187052110b24e99383cbb3558",
+        "contact_type": "",
+        "reopened_by": "",
+        "incident_state": "1",
+        "urgency": "3",
+        "problem_id": "",
+        "company": "",
+        "reassignment_count": "0",
+        "activity_due": "",
+        "assigned_to": "",
+        "severity": "3",
+        "comments": "",
+        "approval": "not requested",
+        "sla_due": "",
+        "comments_and_work_notes": "",
+        "due_date": "",
+        "sys_mod_count": "1",
+        "reopen_count": "0",
+        "sys_tags": "",
+        "escalation": "0",
+        "upon_approval": "proceed",
+        "correlation_id": "",
+        "location": "",
+        "category": "inquiry"
+    }
+}
+Request method:	DELETE
+Request URI:	https://dev87862.service-now.com/api/now/table/incident/b5f8a13187052110b24e99383cbb3558
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+============== DELETE =================== Sys_id=== b5f8a13187052110b24e99383cbb3558
+HTTP/1.1 204 No Content
+Set-Cookie: JSESSIONID=1BC0F19A93677952A46F2443C9E7EF6D; Path=/; HttpOnly;Secure
+Server-Timing: sem_wait;dur=0, sesh_wait;dur=0
+Content-Encoding: gzip
+Set-Cookie: glide_user=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure
+Set-Cookie: glide_user_session=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure
+Set-Cookie: glide_user_route=glide.ac27e18909b64e41e567989606534fa6; Max-Age=2147483647; Expires=Wed, 07-Mar-2091 02:30:17 GMT; Path=/; HttpOnly;Secure
+X-Is-Logged-In: true
+X-Transaction-ID: d2f8adbd87c1
+Set-Cookie: glide_session_store=9EF8ADBD87C12110B24E99383CBB35DF; Max-Age=1800; Expires=Thu, 16-Feb-2023 23:46:10 GMT; Path=/; HttpOnly;Secure
+Date: Thu, 16 Feb 2023 23:16:11 GMT
+Keep-Alive: timeout=70
+Connection: keep-alive
+Server: ServiceNow
+Set-Cookie: BIGipServerpool_dev87862=2358073354.32320.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Request method:	GET
+Request URI:	https://dev87862.service-now.com/api/now/table/incident/b5f8a13187052110b24e99383cbb3558
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+============== GET =================== Sys_id === b5f8a13187052110b24e99383cbb3558
+HTTP/1.1 404 Not Found
+Set-Cookie: JSESSIONID=54DC5C988E0B75694B4E7EC2183AC631; Path=/; HttpOnly;Secure
+Server-Timing: sem_wait;dur=0, sesh_wait;dur=0
+Content-Encoding: gzip
+Set-Cookie: glide_user=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure
+Set-Cookie: glide_user_session=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly;Secure
+Set-Cookie: glide_user_route=glide.ac27e18909b64e41e567989606534fa6; Max-Age=2147483647; Expires=Wed, 07-Mar-2091 02:30:18 GMT; Path=/; HttpOnly;Secure
+X-Is-Logged-In: true
+X-Transaction-ID: a6f8e1fd87c1
+Set-Cookie: glide_session_store=62F8E1FD87C12110B24E99383CBB35C6; Max-Age=1800; Expires=Thu, 16-Feb-2023 23:46:11 GMT; Path=/; HttpOnly;Secure
+X-Content-Type-Options: nosniff
+Pragma: no-store,no-cache
+Cache-Control: no-cache,no-store,must-revalidate,max-age=-1
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 16 Feb 2023 23:16:11 GMT
+Keep-Alive: timeout=70
+Connection: keep-alive
+Server: ServiceNow
+Set-Cookie: BIGipServerpool_dev87862=2358073354.32320.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
+{
+    "error": {
+        "message": "No Record found",
+        "detail": "Record doesn't exist or ACL restricts the record retrieval"
+    },
+    "status": "failure"
+}
+PASSED: getIncidentTest
+PASSED: updateIncidentTest
+PASSED: createIncidentTest
+PASSED: deleteIncidentTest
+
+===============================================
+    Default test
+    Tests run: 4, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+
